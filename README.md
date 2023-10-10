@@ -118,7 +118,7 @@ np.mean(predict(res.x,x)==y)
 
 ## Output:
 ![logistic regression using gradient descent](sam.png)
-![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/6a568735-b2da-43af-9ea9-7faf8590ce7c)
+![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/62ddb39d-0b24-4570-ab01-edfda9891016)
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/d6ea687b-9d1a-4b04-82a8-fb8faeca57ce)
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/df3bbf00-03b0-45d1-8f67-bec3814a9ff8)
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/05c94fe1-8154-4e6e-aa08-ed02d59063f3)
