@@ -184,6 +184,8 @@ np.mean(predict(res.x,x)==y)
 
 
 10.Prediction value of mean
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/04a6d0a5-84a7-4cd2-9c3b-3fe482157f29)
 
 
