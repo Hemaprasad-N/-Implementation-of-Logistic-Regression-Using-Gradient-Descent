@@ -9,11 +9,20 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Algorithm
 1.Use the standard libraries in python for finding linear regression
+
+
 2.Set variables for assigning dataset values. 
+
+
 3.Import linear regression from sklearn. 
+
+
 4.Predict the values of array.
-5.Calculate the accuracy, confusion and classification report by importing the required modules
-from sklearn
+
+
+5.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn
+
+
 6.Obtain the graph
 
 ## Program:
@@ -23,7 +32,7 @@ Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: HEMAPRASAD N
 RegisterNumber:  212222040054
 */
-```
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
@@ -117,19 +126,64 @@ def predict(theta,x):
   return(prob>=0.5).astype(int)
 
 np.mean(predict(res.x,x)==y)
-
+```
 
 ## Output:
-![logistic regression using gradient descent](sam.png)
+1.Array Value of x
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/62ddb39d-0b24-4570-ab01-edfda9891016)
+
+
+2.Array Value of y
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/d6ea687b-9d1a-4b04-82a8-fb8faeca57ce)
+
+
+3.Exam 1-Score Graph
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/df3bbf00-03b0-45d1-8f67-bec3814a9ff8)
+
+
+4.Sigmoid function graph
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/05c94fe1-8154-4e6e-aa08-ed02d59063f3)
+
+
+5.x_train_grad value
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/beb1fc13-59fb-4c52-b8bd-68eb08a1c9b6)
+
+
+6.y_train_grad value
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/8e06f7bd-eb87-48ad-bf08-a47fafb4f4c8)
+
+
+7.Print res.x
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/5d90e9a1-08e0-468d-96fd-3df55bb3e2ae)
+
+
+8.Decision boundary-graph for exam score
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/09df9419-be95-40d6-bae6-0a63fe9c5366)
+
+
+9.Probability value
+
+
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/8dfef1f1-68d8-4b36-bfd4-a115f29a9a32)
+
+
+10.Prediction value of mean
 ![image](https://github.com/Hemaprasad-N/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135933397/04a6d0a5-84a7-4cd2-9c3b-3fe482157f29)
 
 
